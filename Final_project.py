@@ -10,7 +10,7 @@ def zip_print():
 	
 def city_print():
 	city = str(location)
-	print("City = " + city)
+	print("City = " + city.title())
 	city_full = str(city+',US')
 	qstring1 = "appid=" + api_key + "&q=" + city_full
 	city_url = base_url + qstring1
